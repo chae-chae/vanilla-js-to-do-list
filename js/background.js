@@ -8,6 +8,6 @@ const backgroundImg = document.createElement("img");
 
 backgroundImg.src = `img/${randomImg}`;
 
-console.log(backgroundImg);
+// console.log(backgroundImg);
 
 document.body.appendChild(backgroundImg);

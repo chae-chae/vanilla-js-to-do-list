@@ -6,7 +6,7 @@ function getTime() {
         .getMinutes()
         .toString()
         .padStart(2, "0")} : ${date.getSeconds().toString().padStart(2, "0")}`;
-    console.log(TIME_STRING);
+    // console.log(TIME_STRING);
     clock.innerText = TIME_STRING;
 }
 
